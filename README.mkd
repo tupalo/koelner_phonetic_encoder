@@ -1,7 +1,6 @@
 # Koelner Phonetic Encoder
 
-by Michael Kohl michi@tupalo.com
-by Anton Bangratz anton@tupalo.com
+by Michael Kohl <michi@tupalo.com>, Anton Bangratz <anton@tupalo.com>
 
 This is a ruby implementation of the [Kölner Phonetic (Kölner Verfahren)](http://de.wikipedia.org/wiki/K%C3%B6lner_Phonetik) phonetic algorithm that tries to match strings to a phonetic code. This should assist by comparing similar souding german words.
 
@@ -15,8 +14,8 @@ Including the library will enhance the String class of the standard library with
 
 ## LICENSE
 
-see MIT-LICENSE
+see LICENSE
 
 ## HOMEPAGE
 
-http://github.com/tupalo/koelner_phonetic_encoder
+[http://github.com/tupalo/koelner_phonetic_encoder](self)
