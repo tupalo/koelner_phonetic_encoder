@@ -9,8 +9,9 @@ Including the library will enhance the String class of the standard library with
 
 ## Usage
 
-  `require 'koelner_phonetic_encoder'
-  "Wikipedia".phonetic_code # => '3412'`
+	require 'koelner_phonetic_encoder'
+
+	"Wikipedia".phonetic_code # => '3412'
 
 ## LICENSE
 
