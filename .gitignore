@@ -1,0 +1,8 @@
+.swp
+.*.swp
+tags
+TAGS
+vendor/ruby
+.bundle
+Gemfile.lock
+*.gem
