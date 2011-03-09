@@ -18,4 +18,4 @@ see LICENSE
 
 ## HOMEPAGE
 
-[http://github.com/tupalo/koelner_phonetic_encoder](self)
+[self](http://github.com/tupalo/koelner_phonetic_encoder)
