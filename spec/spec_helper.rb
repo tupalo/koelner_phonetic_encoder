@@ -1,1 +1,1 @@
-require 'lib/koelner_phonetic_encoder'
+require './lib/koelner_phonetic_encoder'

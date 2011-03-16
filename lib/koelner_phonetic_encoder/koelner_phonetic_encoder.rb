@@ -1,3 +1,4 @@
+#encoding: utf-8
 module KoelnerPhoneticEncoder
   def phonetic_code
     code = KoelnerPhoneticEncoder.encode_string(self.to_str)
