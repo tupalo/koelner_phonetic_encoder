@@ -60,6 +60,10 @@ module KoelnerPhoneticEncoder
     code.gsub /(\d)\1/, '\1'
   end
   def self.remove_zeroes(code)
-    code[0..0] << code[1..-1].delete('0')
+    unless code.empty?
+      code[0..0] << code[1..-1].delete('0') 
+    else
+      code
+    end
   end
 end
