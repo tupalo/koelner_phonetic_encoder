@@ -1,6 +1,6 @@
 Gem::Specification.new do |gem|
   gem.name = 'koelner_phonetic_encoder'
-  gem.version = '1.0.2'
+  gem.version = '1.0.3'
   gem.authors = ['Michael Kohl', 'Anton Bangratz']
   gem.email = ['michi@tupalo.com', 'tony@tupalo.com']
   gem.summary = 'An implementation of the Kölner Phonetik phonetic algorithm'
