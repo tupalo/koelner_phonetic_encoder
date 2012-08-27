@@ -57,7 +57,10 @@ module KoelnerPhoneticEncoder
     code
   end
   def self.reduce_multiples(code)
-    code.gsub /(\d)\1/, '\1'
+    unless code.gsub!(/(\d)\1/, '\1').nil?
+      self.reduce_multiples(code)
+    end
+    code
   end
   def self.remove_zeroes(code)
     unless code.empty?
